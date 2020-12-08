@@ -1,0 +1,97 @@
+.flex{
+
+  display: flex;
+
+}
+
+.items-center{
+
+  align-items: center;
+
+}
+
+.justify-between{
+
+  justify-content: space-between;
+
+}
+
+.btn{
+
+  padding: 0.5rem 0.5rem;
+
+  font-size: 0.8rem;
+
+  font-weight: 500;
+
+  border:2px solid transparent;
+
+  outline: none;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+
+
+
+}
+
+.btn-primary{
+
+  background: var(--pink);
+
+  color: var(--bright);
+
+}
+
+
+
+.btn-primary:hover{
+
+  background: transparent;
+
+  border-color: var(--pink);
+
+  color: var(--pink);
+
+}
+
+
+
+.btn-secondary{
+
+  background: transparent;
+
+  color: var(--pink);
+
+  border-color: var(--pink);
+
+}
+
+.btn-secondary:hover{
+
+  background: var(--pink);
+
+  color: var(--bright);
+
+
+
+}
+
+
+
+.flex1{
+
+  flex:1;
+
+}
+
+
+
+.justify-center{
+
+  justify-content:center;
+
+}

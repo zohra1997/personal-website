@@ -1,0 +1,1367 @@
+:root{
+
+  --dark:#8E8D8a;
+
+  --pink:#e85a4f;
+
+  --brightPink:#e98074;
+
+  --yellow:#D8C3A5;
+
+  --bright:#EAE7DC;
+
+  --white:#FFFFFF;
+
+  --blue:#96B5D5;
+
+}
+
+body{
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+
+  scroll-behavior: smooth;
+
+}
+
+*{
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  -webkit-font-smotthing: antialiased;
+
+}
+
+header{
+
+  background: var(--bright);
+
+  clip-path:polygon(0 0, 100% 0, 100% 100%, 80% 80%, 0 100%);
+
+}
+
+
+
+.box{
+
+  max-width: 1152px;
+
+  padding: 0 15px;
+
+  margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+header nav .left a{
+
+  color: var(--pink);
+
+  text-decoration: none;
+
+  margin-right: 2rem;
+
+  text-transform: uppercase;
+
+  transition: all .3s ease;
+
+}
+
+header nav .left a:hover{
+
+  color: var(--yellow);
+
+}
+
+
+
+
+
+header nav {
+
+  padding: 2rem 0;
+
+}
+
+header nav .logo {
+
+  margin-right: 3rem;
+
+}
+
+header nav .logo .img1{
+
+  width:170px;
+
+  height: 100px;
+
+}
+
+header .portrait{
+
+padding: 3rem 0;
+
+}
+
+header .portrait .left .img2{
+
+   width: 400px;
+
+  height: 710px;
+
+  margin-right: 3rem;
+
+}
+
+/* If I want to write something on top of the image */
+
+header .portrait .left .imgtext{
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border:2px solid transparent;
+
+  outline: none;
+
+  background-color: var(--bright);
+
+
+
+}
+
+
+
+header .portrait .right {
+
+   color: var(--dark);
+
+
+
+}
+
+
+
+header .portrait .right h6{
+
+  font-size: 1.6rem;
+
+  color: var(--pink);
+
+  margin-bottom: 0.5rem;
+
+  font-weight: 80;
+
+}
+
+
+
+header .portrait .right h1{
+
+  font-size: 4rem;
+
+  color: var(--dark);
+
+  font-weight: 80;
+
+  line-height: 1.2;
+
+  margin-bottom: 2rem;
+
+}
+
+
+
+header .portrait .right h1 span{
+
+  color: var(--pink);
+
+
+
+}
+
+header .portrait .right p{
+
+  line-height: 1.9;
+
+  margin-bottom: 2rem;
+
+}
+
+
+
+header .portrait .right{
+
+  margin-top: -7rem;
+
+}
+
+
+
+section{
+
+  padding: 6rem 4rem;
+
+
+
+}
+
+section.about  .img3{
+
+  margin-left: 3.5rem;
+
+  border-radius: 50%;
+
+  box-shadow: 2px 2px 2px 2px var(--dark);
+
+  width: 350px;
+
+  height: 340px;
+
+}
+
+.img4{
+
+  width: 30px;
+
+  height: 30px;
+
+  margin-left: 0.5rem;
+
+  margin-top: 2rem;
+
+}
+
+section.about  h1{
+
+  margin-bottom: 1rem;
+
+  font-size: 1.6rem;
+
+  font-weight: 400;
+
+  color: var(--dark);
+
+}
+
+section.about  h1 span{
+
+color: var(--pink);
+
+}
+
+section.about  h3{
+
+  font-size: 1.1rem;
+
+  margin-bottom: 1rem;
+
+  font-weight: 400;
+
+  color: var(--dark)
+
+}
+
+section.about p{
+
+  font-family: 'Lato',sans-serif;
+
+  color: var(--dark);
+
+  line-height: 1.8;
+
+}
+
+
+
+.quote-hide {
+
+  display: none;
+
+}
+
+.quote-box {
+
+  text-align: center;
+
+  font-family: 'Lato',sans-serif;
+
+  color: var(--dark);
+
+  font-size: 1.1rem;
+
+  margin-top: -2rem;
+
+}
+
+cite {
+
+                font-size: 70%;
+
+                color: var(--dark);
+
+  font-family: 'Lato',sans-serif;
+
+  padding-bottom: 10rem;
+
+
+
+}
+
+
+
+.projects-header{
+
+  color: var(--dark);
+
+  text-align: center;
+
+  margin-bottom: 6rem;
+
+  line-height: 0.5;
+
+  font-family: 'lato',sans-serif;
+
+}
+
+
+
+.projects-header span{
+
+  color: var(--pink);
+
+}
+
+section.projects .card-wrapper{
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-column-gap: 2rem;
+
+  grid-row-gap: 6rem;
+
+
+
+}
+
+section.projects{
+
+  background: var(--bright);
+
+}
+
+section.projects .card-wrapper .card{
+
+  background: var(--white);
+
+  padding: 3rem 2rem;
+
+  position: relative;
+
+  padding-top: 7rem;
+
+  text-align: center;
+
+  transition: all .3s;
+
+
+
+}
+
+section.projects .card-wrapper .card .project-images{
+
+  position: absolute;
+
+  width: 150px;
+
+  height: 150px;
+
+  top:-3.5rem;
+
+  left:50%;
+
+  transform: translateX(-50%);
+
+  padding-bottom: 1rem;
+
+}
+
+section.projects .card-wrapper .card h2{
+
+  font-weight: 400;
+
+  font-size: 1.2rem;
+
+  margin-bottom: 0.5rem;
+
+  font-family: 'lato',sans-serif;
+
+  color: var(--dark);
+
+
+
+}
+
+section.projects .card-wrapper .card p{
+
+  font-family: 'lato',sans-serif;
+
+  color: var(--dark);
+
+  line-height: 1.6rem;
+
+
+
+}
+
+section.projects .card-wrapper .card:hover{
+
+  background: var(--dark);
+
+
+
+}
+
+
+
+section.projects .card-wrapper .card:hover p, section.projects .card-wrapper .card:hover h2{
+
+  color: var(--yellow);
+
+
+
+}
+
+
+
+section.skills-background{
+
+  background: var(--bright);
+
+}
+
+
+
+section.skills {
+
+  text-align: center;
+
+  background: linear-gradient(rgba(234,231,220,0.4),rgba(234,231,220,0.4)),url(../images/skills-code.jpg);
+
+  clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 70%, 0 100%);
+
+  background-size: 500px 300px;
+
+  margin-left: -6rem;
+
+  margin-right: -4rem;
+
+  margin-top: -6rem;
+
+
+
+}
+
+section.skills h1{
+
+    font-family: 'Lato',sans-serif;
+
+    color: var(--white);
+
+    font-size: 2rem;
+
+}
+
+section.skills h1 span{
+
+    color: var(--pink);
+
+
+
+}
+
+section.skill-groups{
+
+  font-family: 'Lato',sans-serif;
+
+  color: var(--dark);
+
+  background: var(--bright);
+
+  margin-top: -4rem;
+
+
+
+}
+
+
+
+section.skill-groups .box .left .skill-type {
+
+  margin-bottom: 1rem;
+
+}
+
+
+
+section.skill-groups .box .left .skill-type h4{
+
+  margin-bottom: 0.5rem;
+
+  color: var(--pink);
+
+  font-size: 1.2rem;
+
+  font-weight: 600;
+
+}
+
+section.skill-groups .box .left  .skill-type ul{
+
+  line-height: 1.3rem;
+
+  font-size: 700;
+
+}
+
+
+
+section.Experience{
+
+  color: var(--dark);
+
+  font-family: 'Lato',sans-serif;
+
+}
+
+
+
+section.Experience h1{
+
+  text-align: center;
+
+  margin-top: 9rem;
+
+}
+
+section.Experience h1 span{
+
+color: var(--pink);
+
+}
+
+
+
+section.Experience .jobs .slide img{
+
+  width:150px;
+
+  height: 100px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  margin-bottom: 2rem;
+
+
+
+}
+
+section.Experience .jobs .slide{
+
+  text-align: left;
+
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  padding: 06rem;
+
+}
+
+
+
+section.Experience .jobs .slide h4, h6{
+
+margin-bottom:  1rem;
+
+}
+
+section.Experience .jobs .slide li{
+
+line-height: 1.5rem;
+
+}
+
+section.Experience .slider-dots .dots{
+
+  list-style-type:none;
+
+  display: flex!important;
+
+  justify-content: center;
+
+}
+
+section.Experience .slider-dots {
+
+  margin-top: 1rem;
+
+}
+
+section.Experience .slider-dots button{
+
+  font-size: 0;
+
+  width:8px;
+
+  height: 5px;
+
+  margin-right: 0.3rem;
+
+  border:none;
+
+  outline:none;
+
+  background: var(--dark);
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+}
+
+section.Experience .dots li.slick-active button{
+
+  background: var(--pink);
+
+  width: 15px;
+
+
+
+}
+
+section.contact {
+
+  font-family: 'Lato',sans-serif;
+
+  color: var(--dark);
+
+  text-align: center;
+
+  padding: 6rem 6rem;
+
+}
+
+section.contact h1{
+
+margin-bottom: 1rem;
+
+}
+
+
+
+section.contact h1 span{
+
+  color: var(--pink);
+
+
+
+}
+
+section.contact .card-wrapper{
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  grid-gap: -4rem;
+
+  margin-bottom:  6rem;
+
+}
+
+section.contact .card-wrapper .card img{
+
+height: 80px;
+
+width: 80px;
+
+margin-top: 9rem;
+
+margin-bottom: 0.5rem;
+
+}
+
+section.contact .input-wrap{
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  margin-bottom: 1rem;
+
+  flex-direction: column;
+
+  display: flex;
+
+}
+
+section.contact .input-wrapper-2{
+
+  display: flex;
+
+  flex-direction: column;
+
+
+
+}
+
+section.contact .input-wrapper-2 input{
+
+  margin-bottom: 1rem;
+
+
+
+}
+
+section.contact .input-wrapper-2 textarea{
+
+padding: 0.5rem;
+
+margin-bottom: 2rem;
+
+border: 1px solid var(--bright);
+
+color: var(--drak);
+
+font-family: 'Lato',sans-serif;
+
+
+
+}
+
+section.contact  input{
+
+  padding: 0.5rem;
+
+  border: 1px solid var(--bright);
+
+  color: var(--drak);
+
+  font-family: 'Lato',sans-serif;
+
+
+
+}
+
+::placeholder{
+
+  color: var(--dark);
+
+  font-family: 'Lato',sans-serif;
+
+}
+
+section.contact  input:focus,section.contact .input-wrapper-2 textarea:focus{
+
+outline: none;
+
+
+
+}
+
+section.contact .btn-wrapper{
+
+  text-align: center;
+
+  margin-top: 2rem;
+
+}
+
+
+
+footer{
+
+  background: var(--bright);
+
+  text-align: center;
+
+  padding: 4rem 0;
+
+}
+
+footer .footer_logo{
+
+  margin-bottom: 4rem;
+
+  width: 170px;
+
+  height: 70px;
+
+}
+
+
+
+footer .footer a{
+
+  margin-right: 1rem;
+
+}
+
+
+
+footer .footer {
+
+margin-bottom:  2rem;
+
+margin-right:  -1rem;
+
+}
+
+
+
+footer .copyright{
+
+  color: var(--dark);
+
+  font-family: 'Lato',sans-serif;
+
+  font-weight: 600;
+
+}
+
+
+
+@media (max-width:1024px){
+
+  header #mainnav{
+
+    display: none;
+
+  }
+
+}
+
+@media (min-width:1025px){
+
+   .hamburger{
+
+    display: none;
+
+  }
+
+}
+
+.site-wrapper{
+
+  position: relative;
+
+}
+
+.hamburger{
+
+  position: absolute;
+
+  top: 40px;
+
+  right: 40px;
+
+  z-index:11;
+
+  background: none;
+
+  border: none;
+
+  cursor: pointer;
+
+
+
+}
+
+.hamburger img{
+
+  width: 30px;
+
+}
+
+
+
+.mobile-nav{
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 1001;
+
+  background: var(--bright);
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 2rem;
+
+  padding-top:5rem;
+
+  transform: translateX(-100%);
+
+  transition: all .5s ease-in-out;
+
+}
+
+.open{
+
+  transform: translateX(0);
+
+}
+
+
+
+.times{
+
+  position: fixed;
+
+  top: 30px;
+
+  right:30px;
+
+  border: none;
+
+  background: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+}
+
+
+
+.times img{
+
+width: 20px;
+
+
+
+}
+
+
+
+.mobile-nav ul{
+
+  list-style-type: none;
+
+  margin-bottom: 5rem;
+
+}
+
+.mobile-nav li a {
+
+color: var(--pink);
+
+text-decoration: none;
+
+font-size: 2rem;
+
+font-family: 'Lato',sans-serif;
+
+}
+
+.mobile-nav li {
+
+margin-bottom: 1rem;
+
+}
+
+
+
+@media (max-width:1024px){
+
+  header #mainnav{
+
+    display: none;
+
+  }
+
+
+
+  .portrait .right h1{
+
+    font-size: 0.5rem;
+
+
+
+  }
+
+  .portrait .right{
+
+    padding-top: 5rem;
+
+  }
+
+  .portrait .left{
+
+    padding-top: 3rem;
+
+  }
+
+  header{
+
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 30% 90%, 0 100%);
+
+  }
+
+  header .portrait .left .img2{
+
+    width: 400px;
+
+    height: 900px;
+
+
+
+  }
+
+  .about .box{
+
+    padding: 0 0;
+
+
+
+  }
+
+  .about  .flex1 .img3{
+
+    padding: 0 0;
+
+    margin-left: 0rem;
+
+    margin-right: 0rem;
+
+    padding-right: -3rem;
+
+
+
+  }
+
+  .about  .flex1 p,.about  .flex1 h1,.about  .flex1 h3{
+
+  margin-left: 1rem;
+
+  }
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:414px){
+
+  header #mainnav{
+
+    display: none;
+
+  }
+
+
+
+  header .portrait .left .img2{
+
+    width: 160px;
+
+    height: 650px;
+
+
+
+  }
+
+  header .portrait .right h6{
+
+    font-size: 1rem;
+
+  }
+
+  header .portrait .right h1{
+
+    font-size: 1.6rem;
+
+  }
+
+  header .portrait .right p{
+
+    font-size: 0.7rem;
+
+    line-height: 0.9rem;
+
+  }
+
+  header .portrait .right .btn{
+
+    font-size: 0.7rem;
+
+  }
+
+  .mobile-nav li a {
+
+  font-size: 1rem;
+
+}
+
+section.about .box  {
+
+margin-left: -2rem;
+
+margin-right: -2rem;
+
+
+
+}
+
+  section.about  .img3{
+
+    width: 160px;
+
+    height: 200px;
+
+  }
+
+  section.about  h1{
+
+  font-size: 1rem;
+
+  }
+
+  section.about  h3{
+
+  font-size: 1.6rem;
+
+  }
+
+   section.about p{
+
+     font-size: 0.7rem;
+
+     line-height: 0.9rem;
+
+  }
+
+  .quote-loop {
+
+    font-size: 0.7rem;
+
+  }
+
+  section.skills h1{
+
+    font-size: 1.6rem;
+
+  }
+
+  section.skill-groups .box .left .skill-type h4{
+
+    font-size: 0.9rem;
+
+  }
+
+  section.skill-groups .box .left .skill-type ul{
+
+    font-size: 0.7rem;
+
+  }
+
+  section.Experience h1{
+
+    font-size: 1.6rem;
+
+    margin-top: -1rem;
+
+  }
+
+
+
+  section.Experience .jobs .slide h4{
+
+    font-size: 0.8rem;
+
+  }
+
+  section.Experience .jobs .slide li,   section.Experience .jobs .slide ul{
+
+    font-size: 0.7rem;
+
+    line-height: 0.9rem;
+
+  }
+
+  section.Experience .jobs .slide h6{
+
+    font-size: 0.5rem;
+
+  }
+
+  .projects-header{
+
+    font-size: 1.3rem;
+
+    line-height: 1rem;
+
+  }
+
+  section.Experience .jobs .slide{
+
+    padding: 1rem;
+
+  }
+
+  section.projects .box  {
+
+  margin-left: -2rem;
+
+  margin-right: -2rem;
+
+
+
+  }
+
+  section.projects .card-wrapper .card{
+
+    padding: 0rem 0rem;
+
+
+
+  }
+
+  section.projects .card-wrapper .card .project-images{
+
+    width: 70px;
+
+    height: 80px;
+
+
+
+  }
+
+  section.projects .card-wrapper .card h2{
+
+    margin-top: 1rem;
+
+    font-size: 0.9rem;
+
+
+
+  }
+
+  section.projects .card-wrapper .card p{
+
+    font-size: 0.7rem;
+
+    line-height: 0.9rem;
+
+
+
+  }
+
+  section.contact .box  {
+
+  margin-left: -2rem;
+
+  margin-right: -2rem;
+
+
+
+  }
+
+  section.contact h1{
+
+    font-size: 1.6rem;
+
+  }
+
+  section.contact p{
+
+    font-size: 0.9rem;
+
+  }
+
+  section.contact .card-wrapper .card img{
+
+  height: 40px;
+
+  width: 40px;
+
+  margin-top: 3rem;
+
+  margin-bottom: 0.5rem;
+
+  }
+
+  section.contact .card-wrapper .card img{
+
+  height: 40px;
+
+  width: 40px;
+
+  margin-top: 3rem;
+
+  margin-bottom: 0.5rem;
+
+  }
+
+  section.contact .card-wrapper .card h4{
+
+    font-size: 0.6rem;
+
+  }
+
+  section.contact .card-wrapper .card h6{
+
+    font-size: 0.5rem;
+
+  }
+
+  section.contact .input-wrapper-2 input,section.contact .input-wrapper-2 textarea ,section.contact .input-wrap input{
+
+    font-size: 0.6rem;
+
+  }
+
+  section.contact .btn-wrapper .btn{
+
+    font-size: 0.7rem;
+
+  }
+
+
+
+}
