@@ -124,6 +124,8 @@ header .portrait .left .img2{
 
   margin-right: 3rem;
 
+  opacity:0.8;
+
 }
 
 /* If I want to write something on top of the image */
@@ -314,9 +316,9 @@ section.about p{
 
 cite {
 
-                font-size: 70%;
+  font-size: 70%;
 
-                color: var(--dark);
+  color: var(--dark);
 
   font-family: 'Lato',sans-serif;
 
@@ -516,7 +518,7 @@ section.skill-groups{
 
 
 
-section.skill-groups .box .left .skill-type {
+ .skill-type {
 
   margin-bottom: 1rem;
 
@@ -524,7 +526,7 @@ section.skill-groups .box .left .skill-type {
 
 
 
-section.skill-groups .box .left .skill-type h4{
+ .skill-type h4{
 
   margin-bottom: 0.5rem;
 
@@ -536,7 +538,7 @@ section.skill-groups .box .left .skill-type h4{
 
 }
 
-section.skill-groups .box .left  .skill-type ul{
+  .skill-type ul{
 
   line-height: 1.3rem;
 
@@ -1188,13 +1190,13 @@ margin-right: -2rem;
 
   }
 
-  section.skill-groups .box .left .skill-type h4{
+ .skill-type h4{
 
     font-size: 0.9rem;
 
   }
 
-  section.skill-groups .box .left .skill-type ul{
+ .skill-type ul{
 
     font-size: 0.7rem;
 
